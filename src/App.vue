@@ -18,7 +18,6 @@
 <style lang="scss">
   *{box-sizing: border-box;margin:0;padding: 0;}
   #app {
-    border: 1px solid black;
     height: 100vh;
     .view-component{height: 90vh;}
     .foot{height: 8vh;
