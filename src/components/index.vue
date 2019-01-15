@@ -13,13 +13,13 @@
 
     </div>
     <div class="star-index-body">
-        <div class="ball1"><span >1</span></div>
-        <div class="ball2"><span >1</span></div>
-        <div class="ball3"><span ></span></div>
-        <div class="ball4"><span ></span></div>
-        <div class="ball5"><span ></span></div>
-        <div class="ball6"><span ></span></div>
-        <div class="ball7"><span ></span></div>
+        <div class="ball1"><div></div></div>
+        <div class="ball2"><div></div></div>
+        <div class="ball3"><div></div></div>
+        <div class="ball4"><div></div></div>
+        <div class="ball5"><div></div></div>
+        <div class="ball6"><div></div></div>
+        <div class="ball7"><div></div></div>
     </div>
     <div class="star-index-footer">
       <div class="star-index-footer-invite">
@@ -50,7 +50,7 @@ export default {
 
 <style scoped lang="scss">
   .star-index{
-    height: 100vh;
+    height: 85vh;
     z-index: 1;
     .png-wrapper{
       background: url("../assets/index.png")  center center no-repeat ;
@@ -71,27 +71,24 @@ export default {
       }
     }
     &-body{
-      margin-top: 20vh;
-      height: 30vh;
-      div{width: 0.95em;
-        height: 0.95em;
-        border-radius: 50%;
-        border: 1px solid #fff;}
-      .ball1{border-color: #CB18FF;
-        span{
-          padding: .2em;
-          width: .4em;
-          height: .4em;
-          border-radius: 50%;
-        background: #cb18ff;}
-      }
-      .ball2{border-color: #058EFD;}
-      .ball3{border-color: #fff;}
-      .ball4{border-color: #058B1F;}
-      .ball5{border-color: #CB18FF;}
-      .ball6{border-color: #FF1E60;}
-      .ball7{border-color: #F3FF4C
-      ;}
+      height: 40vh;
+      width: 40vh;
+      margin-top: 10vh;
+      div{width: 1.8em;height: 1.8em;border-radius: 50%;}
+      .ball1{border: 1px solid #CB18FF;display: flex;align-items: center;justify-content: center;margin-left: 15vh;
+        div{padding: .2em;width: 1em;height: 1em;border-radius: 50%;background: #cb18ff;} }
+      .ball2{border: 1px solid #058efd;display: flex;align-items: center;justify-content: center;
+            div{padding: .2em;width: .4em;height: .4em;border-radius: 50%;background: #058efd;} }
+      .ball3{border: 1px solid #fff;display: flex;align-items: center;justify-content: center;
+          div{padding: .2em;width: .4em;height: .4em;border-radius: 50%;background: #fff;}}
+      .ball4{border: 1px solid #058b1f;display: flex;align-items: center;justify-content: center;
+          div{padding: .2em;width: .4em;height: .4em;border-radius: 50%;background: #058b1f;}}
+      .ball5{border: 1px solid #cb18ef;display: flex;align-items: center;justify-content: center;
+          div{padding: .2em;width: .4em;height: .4em;border-radius: 50%;background: #cb18ef;}}
+      .ball6{border: 1px solid #FF0078;display: flex;align-items: center;justify-content: center;
+          div{padding: .2em;width: .4em;height: .4em;border-radius: 50%;background: #FF0078;}}
+      .ball7{border: 1px solid #FFA400;display: flex;align-items: center;justify-content: center;
+          div{padding: .2em;width: .4em;height: .4em;border-radius: 50%;background: #FFA400;}}
     }
     &-footer{
       color: #fff;
