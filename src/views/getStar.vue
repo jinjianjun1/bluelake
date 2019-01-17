@@ -99,7 +99,7 @@
 
 <style scoped lang="scss">
 .star-get{
-  background: url("../assets/index/index.png")  center center no-repeat ;
+  background: url("../assets/my/Group 3.png")  center center no-repeat ;
   background-size: cover;position:fixed;
   top: 0;left: 0;width:100%;height:100%;z-index: -10;color: #fff;
 
@@ -121,7 +121,7 @@
 
   }
   .content{
-
+    overflow: scroll;
     margin-top: 3vh;
     border-radius: 1vh;
     background: #fff;

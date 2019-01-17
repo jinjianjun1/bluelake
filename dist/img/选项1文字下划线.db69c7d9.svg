@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="4px" viewBox="0 0 40 4" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>选项1文字下划线</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#7332FF" offset="0%"></stop>
+            <stop stop-color="#CC18FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="获取星力-极速借款" transform="translate(-44.000000, -565.000000)">
+            <g id="顶部选项卡/2项/4字(2项)" transform="translate(0.000000, 483.000000)">
+                <g id="双选项" fill="#FFFFFF">
+                    <rect id="bg" x="0" y="0" width="750" height="87"></rect>
+                </g>
+                <rect id="选项1文字下划线" fill="url(#linearGradient-1)" x="44" y="82" width="40" height="4" rx="2"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
