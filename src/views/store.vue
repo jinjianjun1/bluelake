@@ -25,12 +25,53 @@
                         <p class="total">1个</p>
                         <p class="price">≈¥0.25</p>
                     </div>
-
                 </li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li class="item">
+                    <div class="icon">
+                        <img src="../assets/store/BWT.svg" alt="">
+                        <span>EOS</span>
+                    </div>
+                    <div class="number">
+                        <p class="total">1个</p>
+                        <p class="price">≈¥0.25</p>
+                    </div>
+                </li><li class="item">
+                <div class="icon">
+                    <img src="../assets/store/XRP.svg" alt="">
+                    <span>EOS</span>
+                </div>
+                <div class="number">
+                    <p class="total">1个</p>
+                    <p class="price">≈¥0.25</p>
+                </div>
+            </li><li class="item">
+                <div class="icon">
+                    <img src="../assets/store/EOS.svg" alt="">
+                    <span>EOS</span>
+                </div>
+                <div class="number">
+                    <p class="total">1个</p>
+                    <p class="price">≈¥0.25</p>
+                </div>
+            </li><li class="item">
+                <div class="icon">
+                    <img src="../assets/store/ADA.svg" alt="">
+                    <span>EOS</span>
+                </div>
+                <div class="number">
+                    <p class="total">1个</p>
+                    <p class="price">≈¥0.25</p>
+                </div>
+            </li><li class="item">
+                <div class="icon">
+                    <img src="../assets/store/XRP.svg" alt="">
+                    <span>EOS</span>
+                </div>
+                <div class="number">
+                    <p class="total">1个</p>
+                    <p class="price">≈¥0.25</p>
+                </div>
+            </li>
             </ul>
         </div>
 
@@ -86,12 +127,41 @@
 
 }
 .content-main{
-    background: #fff;
+    background:  rgba(0,0,0,.45);
     display: flex;
-    justify-content: space-between;
+    width: 100%;
+    color: #fff;
+    margin-top: 5vh;
+    ul{width: 100%;list-style: none}
     .item{
+        list-style: none;
         display: flex;
         justify-content: space-between;
+        border-bottom:1px solid rgba(255,255,255,.45);
+        padding: 2vh;
+        width: 95%;
+        margin-left: 1vh;
+        margin-top: .5vh;
+        .icon{
+            display: flex;
+            align-items: center;
+            img{width: 4vh;height: 4vh;}
+            span{
+            background: url("../assets/my/Background Copy 2.png") center center no-repeat;
+            background-size: cover;
+            border-radius: 3vh;
+            padding: 1vh;margin-left: 2vh;
+
+        }
+        }
+        .number{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            .total{
+                color: #D668FF;
+            }
+        }
     }
 }
 }
