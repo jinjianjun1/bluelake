@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="47px" height="47px" viewBox="0 0 47 47" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>EOS</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FF1E60" offset="0%"></stop>
+            <stop stop-color="#FF8911" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#FFA000" offset="0%"></stop>
+            <stop stop-color="#FF0078" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-84.9%" y="-84.9%" width="269.8%" height="269.8%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="5.94308036" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="星链钱包" transform="translate(-32.000000, -663.000000)">
+            <g id="EOS" transform="translate(32.000000, 663.000000)">
+                <circle id="Oval-3-Copy" stroke="url(#linearGradient-1)" stroke-width="2" cx="23" cy="23" r="20"></circle>
+                <circle id="Oval-3-Copy-2" fill="url(#linearGradient-2)" cx="23.5" cy="23.5" r="10.5"></circle>
+                <circle id="Oval-3-Copy-2" fill="url(#linearGradient-2)" filter="url(#filter-3)" cx="23.5" cy="23.5" r="10.5"></circle>
+                <circle id="Oval-3-Copy-3" fill="url(#linearGradient-2)" cx="11" cy="7" r="4"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

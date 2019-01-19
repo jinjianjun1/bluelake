@@ -13,13 +13,13 @@
 
     </div>
     <div class="star-index-body">
-        <div class="ball1"><div></div></div>
-        <div class="ball2"><div></div></div>
-        <div class="ball3"><div></div></div>
-        <div class="ball4"><div></div></div>
-        <div class="ball5"><div></div></div>
-        <div class="ball6"><div></div></div>
-        <div class="ball7"><div></div></div>
+        <div class="ball1">0.011 ADA<img src="../assets/store/ADA.svg" alt=""></div>
+        <div class="ball2">0.011 XRp<img src="../assets/store/XRP.svg" alt=""></div>
+        <div class="ball3">0.011 STAR<img src="../assets/store/STAR.svg" alt=""></div>
+        <div class="ball4">0.011 ADA<img src="../assets/store/ADA.svg" alt=""></div>
+        <div class="ball5">0.011 PGD<img src="../assets/store/XRP.svg" alt=""></div>
+        <div class="ball6">0.011 EOS<img src="../assets/store/EOS.svg" alt=""></div>
+        <div class="ball7">0.011 BWT<img src="../assets/store/BWT.svg" alt=""></div>
     </div>
     <div class="star-index-footer">
       <div class="star-index-footer-invite">
@@ -49,10 +49,12 @@ export default {
 </script>
 
 <style scoped lang="scss">
-    @mixin ball{display: flex;align-items: center;justify-content: center;}
-    @mixin ballInner{padding: .2em;width: .8em;height: .8em;border-radius: 50%;}
+    @mixin ball{position: absolute;
+        display: flex;flex-direction: column;
+        color: #fff;
+        align-items: center;}
   .star-index{
-    height: 85vh;
+      height: 85vh;
     z-index: 1;
     .png-wrapper{
       background: url("../assets/index/index.png")  center center no-repeat ;
@@ -72,22 +74,20 @@ export default {
       &-power{margin-left: 1.45em;display: flex;align-items: center; >img{width: 2vh}
       }
     }
-    &-body{height: 40vh;width: 40vh;margin-top: 10vh; div{width: 1.8em;height: 1.8em;border-radius: 50%;}
-      .ball1{margin-left: 15vh;@include ball;border: 1px solid #CB18FF;
-        div{@include ballInner;background: #cb18ff;box-shadow: 1px 1px 3vh #cb18ff} }
-      .ball2{border:1px solid #058efd;@include ball;
-        div{@include ballInner;background: #058efd;box-shadow: 1px 1px 3vh #058efd} }
-      .ball3{border: 1px solid #fff;@include ball;
-          div{@include ballInner;background: #fff;box-shadow: 1px 1px 3vh #fff}}
-      .ball4{border: 1px solid #058b1f;@include ball;
-          div{@include ballInner;background: #058b1f;box-shadow: 1px 1px 3vh #058b1f}}
-      .ball5{border: 1px solid #cb18ef;@include ball;
-          div{@include ballInner;background: #cb18ef;box-shadow: 1px 1px 3vh #cb18ff}}
-      .ball6{border: 1px solid #FF0078;@include ball;
-          div{@include ballInner;background: #FF0078;box-shadow: 1px 1px 3vh #ff0078}}
-      .ball7{border: 1px solid #FFA400;@include ball;
-          div{@include ballInner;background: #FFA400;box-shadow: 1px 1px 3vh #ffa400}}
-    }
+    &-body{
+        position: relative;
+        height: 35vh;
+        margin-top: 15vh;
+        .ball1{@include ball;top:-5vh;left: 10vh;}
+        .ball2{@include ball;top: 0;left: 38vh;}
+        .ball3{@include ball;top: 11vh;left: 26vh;}
+        .ball4{@include ball;top: 15vh;left: 42vh;}
+        .ball5{@include ball;top: 16vh;left: 5vh;}
+        .ball6{@include ball;top: 22vh;left: 35vh;}
+        .ball7{@include ball;top: 28vh;left: 10vh;}
+          img{width: 4vh;
+              height: 4vh;}
+      }
     &-footer{
       color: #fff;
       margin-top: 20vh;
