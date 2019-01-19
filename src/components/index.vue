@@ -41,7 +41,7 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'home',
   props: {
     msg: String
   }
