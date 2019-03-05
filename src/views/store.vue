@@ -64,7 +64,7 @@
                 </div>
             </li><li class="item">
                 <div class="icon">
-                    <img src="../assets/store/XRP.svg" alt="">
+                    <img src="../assets/store/STAR.svg" alt="">
                     <span>EOS</span>
                 </div>
                 <div class="number">
@@ -92,8 +92,10 @@
 <style scoped lang="scss">
 .my{  background: url("../assets/my/Group 3.png")  center center no-repeat ;
     background-size: cover;position:fixed;
-    height: 92vh;
-    width:100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width:100%;z-index: -10;
 .topbar{
     display: flex;
     justify-content: center;
@@ -132,7 +134,12 @@
     width: 100%;
     color: #fff;
     margin-top: 5vh;
-    ul{width: 100%;list-style: none}
+    ul{width: 100%;list-style: none;
+        li(last-child){
+        border: none;
+    }
+    }
+
     .item{
         list-style: none;
         display: flex;

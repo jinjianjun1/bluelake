@@ -20,8 +20,13 @@
   #app {
     height: 100vh;
     .view-component{height: 90vh;}
-    .foot{height: 8vh;
-      margin-top: 2vh ;}
+    .foot{height: 10vh;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      z-index: 10;
+    }
 }
 
 </style>

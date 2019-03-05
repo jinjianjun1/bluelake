@@ -23,9 +23,11 @@
 .information{
     background: url("../assets/my/Group 3.png")  center center no-repeat ;
     background-size: cover;position:fixed;
-    height: 92vh;
+    height: 100%;
     width:100%;
     display: flex;
+    top: 0;
+    left: 0;
     flex-direction: column;
     align-items: center;
     .first{
