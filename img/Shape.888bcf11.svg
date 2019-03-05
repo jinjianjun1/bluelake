@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="41px" viewBox="0 0 30 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-45.0%" y="-30.0%" width="190.0%" height="160.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="3" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页" transform="translate(-316.000000, -82.000000)" fill="#53CDF3" fill-rule="nonzero">
+            <g id="原力" transform="translate(316.000000, 82.000000)">
+                <g id="Group" transform="translate(0.515638, 0.488289)">
+                    <path d="M21.4229956,5.27617989 L5.45845081,18.3895823 C4.69237333,19.0146788 5.02069175,20.2512782 5.99196944,20.4143491 L11.3682139,21.3519939 L6.79910939,33.4326225 C6.37503009,34.5333338 7.70198877,35.4845678 8.61854833,34.7371681 L24.6104359,21.7324535 C25.3765134,21.107357 25.048195,19.8707576 24.0769173,19.6940974 L18.9469338,18.7972204 L23.269808,6.53991425 C23.6528472,5.43920293 22.3258881,4.52873667 21.4230131,5.27613636 L21.4229956,5.27617989 Z" id="Shape" filter="url(#filter-1)"></path>
+                    <path d="M21.4229956,5.27617989 L5.45845081,18.3895823 C4.69237333,19.0146788 5.02069175,20.2512782 5.99196944,20.4143491 L11.3682139,21.3519939 L6.79910939,33.4326225 C6.37503009,34.5333338 7.70198877,35.4845678 8.61854833,34.7371681 L24.6104359,21.7324535 C25.3765134,21.107357 25.048195,19.8707576 24.0769173,19.6940974 L18.9469338,18.7972204 L23.269808,6.53991425 C23.6528472,5.43920293 22.3258881,4.52873667 21.4230131,5.27613636 L21.4229956,5.27617989 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

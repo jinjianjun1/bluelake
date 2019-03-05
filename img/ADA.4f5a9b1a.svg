@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="53px" height="53px" viewBox="0 0 53 53" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>ADA</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#B38FFF" offset="0%"></stop>
+            <stop stop-color="#D27FFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="97.6268967%" id="linearGradient-2">
+            <stop stop-color="#F0E9FF" offset="0%"></stop>
+            <stop stop-color="#B52BFE" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-83.8%" y="-83.8%" width="267.6%" height="267.6%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="6.42578125" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="97.6268967%" id="linearGradient-4">
+            <stop stop-color="#F4D5FD" offset="0%"></stop>
+            <stop stop-color="#CB18FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="星链钱包" transform="translate(-28.000000, -969.000000)">
+            <g id="ADA" transform="translate(28.000000, 969.000000)">
+                <circle id="Oval-3" stroke="url(#linearGradient-1)" stroke-width="2" cx="26" cy="26" r="20"></circle>
+                <circle id="Oval-3" fill="url(#linearGradient-2)" filter="url(#filter-3)" cx="26.5" cy="26.5" r="11.5"></circle>
+                <circle id="Oval-3" fill="url(#linearGradient-4)" cx="26.5" cy="26.5" r="10.5"></circle>
+                <circle id="Oval-3-Copy-4" fill="url(#linearGradient-2)" cx="9" cy="36" r="4"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

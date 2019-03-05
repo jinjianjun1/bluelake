@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="49px" height="49px" viewBox="0 0 49 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>XRP</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="63.4023878%" y1="100%" x2="43.4348864%" y2="2.93307442%" id="linearGradient-1">
+            <stop stop-color="#098FFD" offset="0%"></stop>
+            <stop stop-color="#058EFD" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#2995FE" offset="0%"></stop>
+            <stop stop-color="#61BCFF" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-85.7%" y="-85.7%" width="271.4%" height="271.4%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="6" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="99.2232659%" id="linearGradient-4">
+            <stop stop-color="#53CDF3" offset="0%"></stop>
+            <stop stop-color="#0071FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#008EFD" offset="0%"></stop>
+            <stop stop-color="#6D9DFE" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="星链钱包" transform="translate(-31.000000, -817.000000)">
+            <g id="XRP" transform="translate(31.000000, 817.000000)">
+                <circle id="Oval-3-Copy" stroke="url(#linearGradient-1)" stroke-width="2" cx="24" cy="24" r="20"></circle>
+                <circle id="Oval-3-Copy-2" fill="url(#linearGradient-2)" filter="url(#filter-3)" cx="24.5" cy="24.5" r="10.5"></circle>
+                <circle id="Oval-3-Copy-2" fill="url(#linearGradient-4)" cx="24.5" cy="24.5" r="10.5"></circle>
+                <circle id="Oval-3-Copy-3" fill="url(#linearGradient-5)" cx="30" cy="43" r="4"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
